@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+#userlist {
+  display: flex;
+  flex-wrap: wrap;
+}
+#userlist > div {
+  display: flex;
+  align-items: center;
+  border: solid 1px black;
+  padding: 1rem;
+  width: 100%;
+}
