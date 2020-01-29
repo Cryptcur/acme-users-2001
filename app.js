@@ -21,4 +21,5 @@ fetch("https://acme-users-api-rev.herokuapp.com/api/users")
   .then(data => {
     const { users, count } = data;
     renderUsers(data.users);
+    console.log(users)
   });
