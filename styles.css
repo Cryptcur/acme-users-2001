@@ -8,10 +8,19 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-#userlist > div {
+#userlist > div, #main {
   display: flex;
+  justify-content: space-around;
   align-items: center;
   border: solid 1px black;
   padding: 1rem;
   width: 100%;
 }
+#header {
+  display: flex;
+  justify-content: space-between;
+  background-color: dodgerblue;
+  padding: 1rem;
+  color: white;
+}
+
